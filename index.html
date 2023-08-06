@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">My Portfolio</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <div class="img1"><img src="ff.avif" alt="Welcome Image"></div>
+      <div class="intro-text">
+        <h1 style="color: rgb(43, 186, 138);">Hello, I'm <strong class="animated-text">Vishal Singh,</strong></h1>
+        <p style="color: red; font-size: x-large;">a Full Stack Developer.</p>
+        <div class="buttons">
+          <a href="path/to/resume.pdf" class="download-button" download>Download Resume</a>
+          
+        </div>
+        
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  
+  <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <p>Highly motivated and skilled Full-Stack Developer with proficiency in Java, HTML/CSS, and JavaScript. Strong foundation in front-end technologies like React, Redux, and React-Router-DOM, coupled with expertise in back-end development using Node.js, Express, and Mongoose. Eager to apply my problem-solving skills and passion for creating efficient and user-friendly applications in a collaborative and dynamic software development environment. A fast learner, ready to contribute to innovative projects and committed to continuous growth and improvement</p>
+  </section>
+  <section id="skills" class="skills-section">
+    <h2>My Skills</h2>
+    <p>Here are some of my technical skills:</p>
+    <div class="skills-list">
+      <div class="skill-item">
+        <i class="fab fa-java skill-icon"></i>
+        <p class="skill-name">JAVA</p>
+        <!-- Content shown on hover -->
+        <div class="skill-content">
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-html5 skill-icon"></i>
+        <p class="skill-name">HTML/CSS</p>
+        <!-- Content shown on hover -->
+        <div class="skill-content">
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-js skill-icon"></i>
+        <p class="skill-name">JAVASCRIPT</p>
+        <!-- Content shown on hover -->
+        <div class="skill-content">
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-node-js skill-icon"></i>
+        <p class="skill-name">Node.js</p>
+        <!-- Content shown on hover -->
+        <div class="skill-content">
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="fas fa-database skill-icon"></i>
+        <p class="skill-name">Mongoose</p>
+        <!-- Content shown on hover -->
+        <div class="skill-content">
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="fas fa-user-lock skill-icon"></i>
+        <p class="skill-name">Passportjs-auth</p>
+        <!-- Content shown on hover -->
+        <div class="skill-content">
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="fas fa-database skill-icon"></i>
+        <p class="skill-name">APIs</p>
+        <!-- Content shown on hover -->
+        <div class="skill-content">
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-node-js skill-icon"></i>
+        <p class="skill-name">Express</p>
+        <!-- Content shown on hover -->
+        <div class="skill-content">
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-react skill-icon"></i>
+        <p class="skill-name">React</p>
+        <!-- Content shown on hover -->
+        <div class="skill-content">
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-react skill-icon"></i>
+        <p class="skill-name">Redux</p>
+        <!-- Content shown on hover -->
+        <div class="skill-content">
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-react skill-icon"></i>
+        <p class="skill-name">React-Router-DOM</p>
+        <!-- Content shown on hover -->
+        <div class="skill-content">
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-react skill-icon"></i>
+        <p class="skill-name">React-Hooks</p>
+        <!-- Content shown on hover -->
+        <div class="skill-content">
+        </div>
+      </div>
+      <!-- Add more skills and their content here... -->
+    </div>
+    </section>
+    <section id="projects" class="projects-section">
+      <div class="projects-header">
+        <h2>My Projects</h2>
+        <p>Here are some of my recent projects:</p>
+      </div>
+      <div class="projects-list">
+  
+        <div class="project-item">
+          <div class="project-content">
+            <h3>Project 1: E-commerce Website</h3>
+            <a href="https://vishalecs.github.io/ecommerce/">
+              <img src="Screenshot (5).png" alt="Project 1">
+            </a>
+            <button class="about-button" onclick="togglePopup(1)">About</button>
+          </div>
+          <div class="project-about" id="popup-1">
+            <p>This is an e-commerce web application built using React, Redux, and React Router DOM. React handles the user interface, Redux manages the state, and React Router DOM ensures smooth navigation between pages, creating a dynamic and seamless shopping experience.</p>
+          </div>
+        </div>
+  
+        <div class="project-item">
+          <div class="project-content">
+            <h3>Project 2: placement-cell</h3>
+            <a href="https://placement-cell-qmcj.onrender.com/">
+            <img src="place.png" alt="Project 2"></a>
+            <button class="about-button" onclick="togglePopup(2)">About</button>
+          </div>
+          <div class="project-about" id="popup-2">
+            <p>The "Team Career Camp Interview Management System" is a Node.js web application built with Express.js and MongoDB using Mongoose. It allows employees to manage student details, schedule interviews, and mark interview results. The system is designed with a clean and minimalistic interface for ease of use.</p>
+          </div>
+        </div>
+  
+        <div class="project-item">
+          <div class="project-content">
+           
+            <h3>Project 3: Employee Review System</h3>
+            <a href="https://review-5tzw.onrender.com/">
+            <img src="emp.png" alt="Project 3"></a>
+            <button class="about-button" onclick="togglePopup(3)">About</button>
+          </div>
+          <div class="project-about" id="popup-3">
+            <p>A Node.js web app with Express.js and MongoDB. Enables employees to submit feedback on each other's performance, fostering growth and collaboration in a secure and user-friendly interface.</p>
+          </div>
+        </div>
+  
+        <div class="project-item">
+          <div class="project-content">
+            <h3>Project 4: Searching Meal</h3>
+            <a href="https://vishalecs.github.io/searchingmeal1/">
+            <img src="meal.png" alt="Project 4"></a>
+            <button class="about-button" onclick="togglePopup(4)">About</button>
+          </div>
+          <div class="project-about" id="popup-4">
+            <p>"Meal Master" - The ultimate meal app. Store and search favorite meals effortlessly. Powered by HTML, CSS, and JavaScript for a delightful experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+  
+ 
+  <!-- Other sections... -->
+  <section id="contact" class="contact-section">
+    <footer class="footer">
+        <div class="contact-info">
+          <h3>Contact Me</h3>
+          <p>Email: vishalsinghecs99@gmail.com</p>
+          <p>Phone: 7408882629</p>
+          <p>Location: Varanasi</p>
+        </div>
+        
+        <div class="social-icons">
+          <!-- Add LinkedIn and GitHub icons using Font Awesome -->
+          <a href="https://www.linkedin.com/in/vishal-singh-487968205/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Vishalecs/"><i class="fab fa-github"></i></a>
+        </div>
+      </footer>
+    
+</section>
+  <script src="script.js"></script>
+</body>
+</html>
